@@ -1,11 +1,22 @@
 body h1 {
-	color: #000a1a;
+	color: white;
 }
 
 body {
-	background:#white;
-	font-family: arial;
+	background-image: url('https://getwallpapers.com/wallpaper/full/a/9/f/142570.jpg');
+	background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+	font-family: monospace;
 	margin: 5;
+}
+
+body ol li{
+	color: white;
+	background-color: rgba(128, 128, 128, 0.2);
+	padding: 5px;
 }
 
 nav ul {
@@ -19,12 +30,13 @@ nav ul {
 	text-align: center;
 	display: inline-block;
 	list-style-type: none;
-	padding: 5px 26%;
+	padding: 5px 5px;
 }
 
-.btn {
-	background-color: #b3d1ff;
-  	border: none;
+button {
+	background-color: transparent;
+	color: white;
+  	border: 2px solid white;
   	padding: 16px 32px;
   	text-align: center;
   	font-size: 16px;
@@ -33,9 +45,9 @@ nav ul {
   	transition: 0.3s;
 }
 
-.btn:hover {
-	background-color: #003380;
-  	color: white;
+button:hover {
+	background-color: white;
+  	color: black;
 }
 
 nav ul a {
@@ -43,7 +55,12 @@ nav ul a {
 }
 
 p {
-	background: #666;
+	background-color: rgba(128, 128, 128, 0.1);
 	color: white;
 	padding: 10px;
+}
+
+footer {	
+	position: fixed;
+	bottom: 0;
 }
