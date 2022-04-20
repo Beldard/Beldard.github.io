@@ -1,5 +1,9 @@
 body h1 {
-	color: white;
+	color: black;
+	background-color: white;
+	background-attachment: fixed;
+    background-position: top;
+    padding: 10px;
 }
 
 body {
