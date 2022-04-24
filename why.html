@@ -5,12 +5,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bad Question</title>
 	<link href="main.css" rel="stylesheet"/>
+
+	<h1><img src='Logo.png' width="100px" height="100px"></h1>
 </head>
 <body>
-	<img src = "https://steamuserimages-a.akamaihd.net/ugc/1755812632520426115/36E90DDC9A824A90AF2367F199F5DE141C7658FC/?imw=506&imh=506&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"><br>
+	<style type="text/css">
+		body {background-color: black;}
+		.card {
+        	width: 554px;
+        	height: 637px;
+        	position: relative;
+        	display: inline-block;
+    	}
+    	.card .img-top {
+	        display: none;
+    	    position: absolute;
+	        top: 0;
+        	left: 0;
+        	z-index: 99;
+    	}
+    	.card:hover .img-top {
+        	display: inline;
+    	}
 
-	<button onclick="window.location.href='index.html';">Home</button>
+    	.img-container {
+        	text-align: center;
+      	}	
+	</style>
+		<div class="img-container">
+			<div class="card">
+				<img src="franz.jpg" alt="Card Back">
+       			<img src="franzj_initial.jpg" class="img-top" alt="Card Front">
+			</div>
+		</div>
+	<nav>
+		<ul>
+			<button onclick="window.location.href='index.html';">Home</button>
+		</ul>
+	</nav>
 
-	<p>no I don't use wix</p>
+	<p>No I don't use Wix</p>
 </body>
 </html>
