@@ -16,15 +16,19 @@ body {
 	margin: 0px;
 }
 
-body ul li{
+body div {
+	text-align: center;
+}
+
+body ul li {
 	color: white;
-	font-size: 20px;
-	background-color: rgba(128, 128, 128, 0.2);
-	box-shadow:  -1.5em 0 rgba(128, 128, 128, 0.2);
+	font-size: 32px;
+	list-style-type: none;
+	text-align: center;
+	margin: auto;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin: auto;
-	width: 50%;
+	width: 26%;
 }
 
 nav ul {
@@ -34,12 +38,12 @@ nav ul {
 	text-align: center;
 	display: inline-block;
 	position: relative;
-  	left: 50%; 
+  	left: 50%;
   	transform: translateX(-50%);
 	list-style-type: none;
-	padding: 5px 5px;
-	margin: auto;
-	width: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
 }
 
 button {
